@@ -1,60 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     border: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    
 }
 
 body{
     background-color: black;
 }
-/* 
-nav{
-    border-bottom: 1px solid white;
-    width: 100%;
-} */
+
+label, .check_icon{
+    display: none;
+}
 
 .centre{
     max-width: 1000px;
     margin: auto;
 }
 
-.space{
+.log{
+    display: none;
+}
+
+.sea{
+    display: none;
+}
+
+.navbar {
     display: flex;
-    justify-content: center;
-    gap: 12rem;
+    justify-content: space-between;
     align-items: center;
-}
-
-.nav_bar, .nav_bar1{
-    text-align: center;
-    font-size: 1rem;
-    border: 2px solid;
-    width: 19rem;
+    background-color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+    /* font-size: 1rem; */
+  }
+  
+  .nav-menu {
     display: flex;
-    justify-content: space-evenly;
+  }
+  
+  .nav-menu li {
+    margin: 0 15px;
+  }
+  
+  .nav-menu a {
     text-transform: uppercase;
-}
-
-
-.nav_bar>li>a, .nav_bar1>li>a{
     color: white;
-}
-
-
-.nav_bar1>i{
-    color: white;
-    font-size: 1.2rem;
-}
-
-.logo{
-    width: 24vh;
-    height: 18vh;
-}
+    font-weight: bold;
+    font-size: .8rem;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-menu a.active {
+    color:  #c7a17a;
+  }
+  
+  .nav-menu a:hover {
+    color:  #c7a17a;
+  }
+  
+  .logo img {
+    height: 15vh;
+  }
+  
 
 .content{
     /* margin-block: 2rem; */
@@ -103,9 +117,11 @@ nav{
     
 }
 
-/* .content1>p{
-    
-} */
+.content1>p{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: .8rem;
+}
 
 .btn>button{
     margin-block: 2rem;
@@ -120,12 +136,209 @@ nav{
    font-family: "Bebas Neue", sans-serif;
 }
 
-.social>i{
+.social{
+    display: flex;
+    align-items: center;
+}
+
+.tet{
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+}
+
+.tet>p{
     margin-right: 1rem;
     font-size: .8rem;
+    font-family: "Bebas Neue", sans-serif;
     text-transform: uppercase;
 }
 
 .content2>img{
     width: 80%;
 }
+
+@media(min-width: 320px) and (max-width: 700px){
+
+    .log{
+        display: block;
+        height: 10vh;
+      }
+
+      .log>img{
+        height: 15vh;
+        /* margin-left: 1rem; */
+      }
+
+      .sea{
+        display: block;
+        height: 10vh;
+        color: #fff;
+      }
+
+      .sea>i{
+        margin-left: 17rem;
+        height: 5rem;
+      }
+
+    label{
+        display: block;
+        font-size: 2rem;
+        margin-top: -5.5rem;
+        margin-left: 19rem;
+        cursor: pointer;
+        color: #c7a17a;
+    }
+
+    .nav-menu{
+        padding: 0;
+        display: flex;
+        /* text-align: center; */
+        align-items: center;
+        /* justify-content: space-between; */
+        gap: 1rem;
+        flex-direction: column;
+    }  
+    
+    .logo{
+        display: none;
+    }
+
+    .bar{
+        display: none;
+    }
+
+    .nav-menu>li>a{
+        width: 20vh;
+        color: #fff;
+        font-size: 18px;
+        /* gap: 2rem; */
+        /* padding: 0.6rem; */
+        text-align: center;
+        border-bottom: 2px solid;
+    }
+
+    .navbar{
+        display: none;
+        position: absolute;
+        width: 340px;
+        padding: 1.8rem;
+        top: 7rem;
+        right: 3px;
+        z-index: 1;
+        background-color: rgb(32, 30, 30);
+        opacity: .97;
+        border-bottom: 4px solid wheat;
+        transform: translate(100%, 0);
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    }
+
+    #toggle:checked + .navbar{
+        display: block;
+        transform: none;
+    }
+    
+
+    .content{
+        flex-direction: column;
+    }
+
+    .content1{
+        /* border: 2px solid; */
+        width: 100%;
+        text-align: center;
+    }
+
+    .content1>h2{
+        font-size: 2rem;
+    }
+    .content1>h2>span{
+        font-size: 2.3rem;
+    }
+    /* .content1>p{
+        border: 2px solid;
+    } */
+    .pro{
+        height: 5vh;
+        margin-left: 13rem;
+        margin-bottom: 1rem;
+    }
+
+    .content2{
+        text-align: center;
+    }
+
+    .social{
+        justify-content: center;
+    }
+
+}
+
+/* main code */
+.wrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.box1{
+    background-image: url(img/beautiful-fresh-relax-morning-coffee-cup-set.jpg);
+    background-size: cover;
+    height: 35vh;
+    border: 1px solid white;
+}
+
+.box>h5{
+    color: wheat;
+    /* font-size: 1rem; */
+    padding-left: 1.4rem;
+    padding-top: .1rem;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.box{
+    background: linear-gradient(to bottom, black, rgba(255, 255, 255, 0.233));
+    padding-top: .1rem;
+    height: 35vh;
+
+}
+
+.box>h2{
+    text-transform: uppercase;
+    color: white;
+    padding-left: 1.4rem;
+    margin-top: -1rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+}
+.box>p{
+    text-transform: uppercase;
+    color: white;
+    width: 15rem;
+    padding-left: 1.4rem;
+    margin-top: -1rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: .6rem;
+}
+
+.box2{
+    background-image: url(https://m.media-amazon.com/images/I/51HerHOKJnL._AC_SL1000_.jpg);
+    background-size: cover;
+    height: 35vh;
+    border: 1px solid white;
+}
+.box3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKXlHI1zLXJCvzqbU3pC9PCJDNUZkTBgMEdRyfT5V7quWO8hWpEugNgd-7_FURedCyaAk&usqp=CAU);
+    background-size: cover;
+    height: 35vh;
+    border: 1px solid white;
+}
+
+@media (min-width:360px) and (max-width:600px) {
+    .wrap{
+        grid-template-columns: 1fr;
+        margin-top: 13rem;
+    }
+}
+
