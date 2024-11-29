@@ -14,6 +14,16 @@ body{
     background-color: black;
 }
 
+.top{
+    margin-left: 55rem;
+    margin-top: -1rem;
+    opacity: .2;
+}
+
+header{
+    margin-top: -29rem;
+}
+
 label, .check_icon{
     display: none;
 }
@@ -71,9 +81,9 @@ label, .check_icon{
   
 
 .content{
-    /* margin-block: 2rem; */
+    margin-block: 3rem;
     /* border: 2px solid red; */
-    height: 90vh;
+    /* height: 90vh; */
     display: flex;
     /* justify-content: space-between; */
     gap: 1rem;
@@ -81,7 +91,9 @@ label, .check_icon{
 }
 
 .content1{
+    
     color: white;
+    margin-top: -8rem;
 }
 
 .content1{
@@ -161,6 +173,13 @@ label, .check_icon{
 }
 
 @media(min-width: 320px) and (max-width: 700px){
+
+    .top{
+        margin-left: -5rem;
+        /* margin-top: -1rem; */
+        opacity: .2;
+    }
+   
 
     .log{
         display: block;
@@ -244,6 +263,7 @@ label, .check_icon{
 
     .content{
         flex-direction: column;
+        margin-top: 7rem;
     }
 
     .content1{
@@ -341,7 +361,7 @@ label, .check_icon{
 @media (min-width:360px) and (max-width:600px) {
     .wrap{
         grid-template-columns: 1fr;
-        margin-top: 13rem;
+        margin-block: 4rem;
     }
 }
 
