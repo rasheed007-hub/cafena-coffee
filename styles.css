@@ -172,20 +172,21 @@ label, .check_icon{
 
       .sea{
         display: block;
-        height: 10vh;
+        /* height: 10vh; */
         color: #fff;
       }
 
       .sea>i{
-        margin-left: 17rem;
+        margin-left: 20.5rem;
+        /* margin-top: -19rem; */
         height: 5rem;
       }
 
     label{
         display: block;
         font-size: 2rem;
-        margin-top: -5.5rem;
-        margin-left: 19rem;
+        margin-top: -8rem;
+        margin-left: 20rem;
         cursor: pointer;
         color: #c7a17a;
     }
