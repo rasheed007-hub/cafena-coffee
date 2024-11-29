@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    border: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: black;
+}
+/* 
+nav{
+    border-bottom: 1px solid white;
+    width: 100%;
+} */
+
+.centre{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.space{
+    display: flex;
+    justify-content: center;
+    gap: 12rem;
+    align-items: center;
+}
+
+.nav_bar, .nav_bar1{
+    text-align: center;
+    font-size: 1rem;
+    border: 2px solid;
+    width: 19rem;
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+}
+
+
+.nav_bar>li>a, .nav_bar1>li>a{
+    color: white;
+}
+
+
+.nav_bar1>i{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.logo{
+    width: 24vh;
+    height: 18vh;
+}
+
+.content{
+    /* margin-block: 2rem; */
+    /* border: 2px solid red; */
+    height: 90vh;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 1rem;
+    align-items: center;
+}
+
+.content1{
+    color: white;
+}
+
+.content1{
+    /* border: 2px solid red; */
+    width: 50%;
+}
+
+.content1>h1, h2{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.content1>h1{
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+.content1>h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-top: -4rem;
+}
+
+.content1>h2>span{
+    font-size: 3rem;
+    color: #c7a17a;
+}
+
+.pro{
+    margin-left: 16rem;
+    margin-top: -5rem;
+    height: 7vh;
+    
+}
+
+/* .content1>p{
+    
+} */
+
+.btn>button{
+    margin-block: 2rem;
+   height: 2rem;
+   width: 8rem;
+   background-color: #c7a17a;
+   color: white;
+   font-size: 1.3rem;
+   border-radius: 5px;
+   text-transform: uppercase;
+   font-weight: normal;
+   font-family: "Bebas Neue", sans-serif;
+}
+
+.social>i{
+    margin-right: 1rem;
+    font-size: .8rem;
+    text-transform: uppercase;
+}
+
+.content2>img{
+    width: 80%;
+}
