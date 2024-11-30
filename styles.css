@@ -182,7 +182,7 @@ label, .check_icon{
 }
 
 .content2>img{
-    width: 80%;
+    width: 90%;
 }
 
 @media(min-width: 320px) and (max-width:    600px){
@@ -397,14 +397,14 @@ label, .check_icon{
 }
 
 .part>img{
-    width: 100%;
+    width: 90%;
 }
 .part>p{
-    margin-top: -13rem;
-    margin-left: 15rem;
+    margin-top: -11rem;
+    margin-left: 13rem;
     color: wheat;
     /* text-spacing-trim: 4rem; */
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: "Bebas Neue", sans-serif;
 }
 
