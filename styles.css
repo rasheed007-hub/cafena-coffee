@@ -778,6 +778,34 @@ label, .check_icon{
     /* gap: 3rem; */
 }
 
+.line{
+    border-bottom: 1px solid white;
+    margin-block: 1rem;
+    display: flex;
+    gap: 13rem;
+    padding-left: 17rem;
+    /* display: grid;
+    grid-template-columns: repeat(4) 1fr; */
+}
+
+.line>div{
+    margin-bottom: -1rem;
+    border-radius: 100%;
+    border: 1px solid white;
+    height: 2rem;
+    color: white;
+    font-family: "Roboto", serif;
+    font-size: .9rem;
+    text-align: center;
+    width: 2rem;
+    padding-top: .4rem;
+    background-color: black;
+}
+
+.line2{
+    display: none;
+}
+
 
 @media(min-width:320px) and (max-width:600px){
     .h2>h4{
@@ -804,4 +832,30 @@ label, .check_icon{
         margin-left: 2rem;
         /* border: 2px solid wheat; */
     }
+
+    .line>div{
+        display: none;
+    }
+
+    .line2{
+        display: block;
+        color: #c7a17a;
+    }
+
+    .line2>div{
+        margin-top: -16rem;
+        margin-left: 4rem;
+        border-radius: 100%;
+        border: 1px solid white;
+        height: 2rem;
+        color: white;
+        font-family: "Roboto", serif;
+        font-size: .9rem;
+        text-align: center;
+        width: 2rem;
+        padding-top: .4rem;
+        background-color: black;
+    }
+
+   
 }
