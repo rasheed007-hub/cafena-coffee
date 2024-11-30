@@ -560,7 +560,7 @@ label, .check_icon{
     .sec_four{
         grid-template-columns: 1fr;
         text-align: center;
-        margin-left: 3rem;
+        margin-left: 4rem;
     }
 
     .secs{
