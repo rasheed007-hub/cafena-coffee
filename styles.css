@@ -575,6 +575,10 @@ label, .check_icon{
 
 /* section five */
 
+.manu{
+    margin-block: 3rem;
+}
+
 .h4>h4{
     color: white;
     text-align: center;
@@ -610,11 +614,11 @@ label, .check_icon{
 
 .ban{
     color: #fff;
-    border: 2px solid #fff;
-    width: 75vh;
+    border: 1px solid #fff;
+    width: 70vh;
     height: 12vh;
     margin-bottom: 4rem;
-    margin-right: 5rem;
+    margin-left: 2rem;
 }
 
 .ban>img{
@@ -661,7 +665,7 @@ label, .check_icon{
 
     .card{
         grid-template-columns: 1fr;
-        margin-left: 2rem;
+        /* margin-left: 1rem; */
     }
 
     .ban{
@@ -697,5 +701,105 @@ label, .check_icon{
         font-family: "Bebas Neue", sans-serif;
         font-weight: 100;
         color: #c7a17a;
+    }
+}
+
+/* section six */
+
+.h2>h4{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: .1rem;
+    font-weight: 400;
+}
+
+.h2>div{
+    background-color: #c7a17a;
+    height: 4vh;
+    border-radius: 3px;
+    width: 15vh;
+    margin-left: 28rem;
+    margin-bottom: -2.7rem;
+}
+
+.top_grade>h1{
+    color: white;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin-top: -.2rem;
+}
+
+.bean>h1{
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    margin-top: -.1rem;
+}
+.bean1{
+    margin-top: 1.1rem;
+}
+.bean>p{
+    color: #fff;
+    font-family: "Roboto", serif;
+    font-size: .8rem;
+    margin-top: -.5rem;
+    font-weight: normal;
+    width: 15rem;
+}
+.bean1>h1{
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    margin-top: -.1rem;
+}
+
+.bean1>p{
+    color: #fff;
+    font-family: "Roboto", serif;
+    font-size: .8rem;
+    margin-top: -.5rem;
+    font-weight: normal;
+    width: 15rem;
+}
+
+.bag{
+    align-items: center;
+    text-align: center;
+    width: 19rem;
+    /* border: 2px solid wheat; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* gap: 3rem; */
+}
+
+
+@media(min-width:330px) and (max-width:600px){
+    .h2>h4{
+        color: white;
+        /* margin-top: -.1rem; */
+    }
+
+    .h2>div{
+        background-color: #c7a17a;
+        height: 4vh;
+        border-radius: 3px;
+        width: 12vh;
+        font-size: 1.3rem;
+        margin-left: 9.3rem;
+        /* margin-bottom: -rem; */
+        /* margin-bottom: -2.7rem; */
+    }
+
+    .bag{
+        grid-template-columns: 1fr;
+        margin-left: 3rem;
+    }
+    .bean>p, .bean1>p{
+        margin-left: 2rem;
+        border: 2px solid wheat;
     }
 }
