@@ -572,3 +572,120 @@ label, .check_icon{
         margin-left: 7rem;
     }
 }
+
+/* section five */
+
+.h4>h4{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: .1rem;
+    font-weight: 400;
+}
+
+.h4>div{
+    background-color: #c7a17a;
+    height: 4vh;
+    border-radius: 3px;
+    width: 12vh;
+    margin-left: 29rem;
+    margin-bottom: -2.7rem;
+}
+
+.manu>h1{
+    color: white;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin-top: -.2rem;
+}
+
+.card{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.ban{
+    color: #fff;
+    border: 2px solid #fff;
+    width: 75vh;
+    height: 12vh;
+    margin-bottom: 4rem;
+    margin-right: 5rem;
+}
+
+.ban>img{
+    border-radius: 100%;
+    height: 10vh;
+    width: 10vh;
+    margin-left: -2rem;
+    margin-bottom: -3.4rem;
+}
+
+.ban>h2{
+    margin-left: 4rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    margin-top: -.1px;
+}
+
+.ban>p{
+    margin-left: 24rem;
+    margin-top: -2.9rem;
+    font-size: 1.5rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 100;
+    color: #c7a17a;
+}
+
+@media (min-width:330px) and (max-width:600px) {
+    .h4>div{
+        background-color: #c7a17a;
+        height: 4vh;
+        border-radius: 3px;
+        width: 12vh;
+        margin-left: 8.9rem;
+        /* margin-bottom: -2.7rem; */
+    }
+
+    .card{
+        grid-template-columns: 1fr;
+        margin-left: 2rem;
+    }
+
+    .ban{
+        color: #fff;
+        border: 2px solid #fff;
+        width: 45vh;
+        height: 12vh;
+        margin-bottom: 4rem;
+        margin-right: 5rem;
+    }
+    
+    .ban>img{
+        border-radius: 100%;
+        height: 9vh;
+        width: 9vh;
+        margin-left: -2rem;
+        margin-bottom: -4em;
+    }
+    
+    .ban>h2{
+        margin-left: 3rem;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        margin-top: -.1px;
+    }
+    
+    .ban>p{
+        margin-left: 15rem;
+        margin-top: -2.9rem;
+        font-size: 1.5rem;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 100;
+        color: #c7a17a;
+    }
+}
