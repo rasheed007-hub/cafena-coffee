@@ -490,6 +490,10 @@ label, .check_icon{
         flex-direction: column;
     }
 
+    .btn-btn>button{
+        margin-right: -1rem;
+    }
+
     .part_three>h1{
         margin-left: -1rem;
         /* border: 1px solid wheat; */
