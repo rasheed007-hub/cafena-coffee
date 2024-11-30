@@ -286,7 +286,7 @@ label, .check_icon{
     .content{
         flex-direction: column;
         margin-top: 7rem;
-        gap: 3rem;
+        gap: 5rem;
     }
 
     .content1{
