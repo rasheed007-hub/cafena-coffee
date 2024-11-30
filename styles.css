@@ -185,7 +185,7 @@ label, .check_icon{
     width: 80%;
 }
 
-@media(min-width: 320px) and (max-width: 700px){
+@media(min-width: 320px) and (max-width:    600px){
 
     .top{
         display: none;
@@ -382,7 +382,7 @@ label, .check_icon{
     border: 1px solid white;
 }
 
-@media (min-width:360px) and (max-width:600px) {
+@media (min-width:320px) and (max-width:600px) {
     .wrap{
         grid-template-columns: 1fr;
         margin-block: 4rem;
@@ -558,7 +558,7 @@ label, .check_icon{
     font-size: .9rem;
 }
 
-@media(min-width:330px) and (max-width:600px){
+@media(min-width:320px) and (max-width:600px){
     .sec_four{
         grid-template-columns: 1fr;
         text-align: center;
@@ -647,7 +647,7 @@ label, .check_icon{
     color: #c7a17a;
 }
 
-@media (min-width:330px) and (max-width:600px) {
+@media (min-width:320px) and (max-width:600px) {
 
     .h4>h4{
         color: white;
@@ -779,7 +779,7 @@ label, .check_icon{
 }
 
 
-@media(min-width:330px) and (max-width:600px){
+@media(min-width:320px) and (max-width:600px){
     .h2>h4{
         color: white;
         /* margin-top: -.1rem; */
