@@ -514,3 +514,61 @@ label, .check_icon{
     }
 
 }
+
+/* section four */
+
+.sec_four{
+    margin-block: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.secs{
+    /* border: 2px solid white; */
+    color: white;
+    width: 16rem;
+}
+
+.bss>div{
+    height: 5vh;
+    width: 5vh;
+    margin-left: 2rem;
+    background-color: rgb(58, 57, 57);
+    border-radius: 100%;
+}
+
+.bss>img{
+    margin-top: -4rem;
+    margin-left: 3rem;
+    /* text-align: center; */
+    height: 3rem;
+}
+
+.bss>h2{
+    margin-top: -.3rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+}
+
+.bss>p{
+    margin-top: -1rem;
+    font-family: "Roboto", serif;
+    font-size: .9rem;
+}
+
+@media(min-width:330px) and (max-width:600px){
+    .sec_four{
+        grid-template-columns: 1fr;
+        text-align: center;
+        margin-left: 3rem;
+    }
+
+    .secs{
+        text-align: center;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+    .bss>div{
+        margin-left: 7rem;
+    }
+}
