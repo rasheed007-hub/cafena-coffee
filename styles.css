@@ -800,6 +800,6 @@ label, .check_icon{
     }
     .bean>p, .bean1>p{
         margin-left: 2rem;
-        border: 2px solid wheat;
+        /* border: 2px solid wheat; */
     }
 }
