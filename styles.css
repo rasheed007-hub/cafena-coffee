@@ -286,6 +286,7 @@ label, .check_icon{
     .content{
         flex-direction: column;
         margin-top: 7rem;
+        gap: 3rem;
     }
 
     .content1{
@@ -488,6 +489,7 @@ label, .check_icon{
 @media (min-width:330px) and (max-width:600px) {
     .part_two{
         flex-direction: column;
+        gap: 3rem;
     }
 
     .btn-btn>button{
