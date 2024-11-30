@@ -489,7 +489,7 @@ label, .check_icon{
 @media (min-width:330px) and (max-width:600px) {
     .part_two{
         flex-direction: column;
-        gap: 3rem;
+        gap: 5rem;
     }
 
     .btn-btn>button{
