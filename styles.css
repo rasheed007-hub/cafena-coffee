@@ -496,15 +496,17 @@ label, .check_icon{
     }
 
     .part_three>p{
-        margin-left: -.1rem;
+        margin-left: -.4rem;
     }
 
     .aba>p{
         font-size: .8rem;
+        border: 2px solid wheat;
+        width: 8rem;
     }
 
     .aba>button{
-        margin-right: -1rem;
+        margin-right: -.3rem;
     }
 
 }
