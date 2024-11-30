@@ -653,7 +653,8 @@ label, .check_icon{
         height: 4vh;
         border-radius: 3px;
         width: 12vh;
-        margin-left: 9rem;
+        font-size: 1.3rem;
+        margin-left: 9.3rem;
         /* margin-bottom: -rem; */
         /* margin-bottom: -2.7rem; */
     }
