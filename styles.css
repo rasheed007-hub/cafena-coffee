@@ -13,19 +13,24 @@
 body{
     background-color: black;
 }
-
+/* 
 .top{
     margin-left: 55rem;
     margin-top: -1rem;
     opacity: .2;
-}
+} */
 
-header{
+/* header{
     margin-top: -29rem;
-}
+} */
 
 label, .check_icon{
     display: none;
+}
+
+.hr{
+    border-bottom: 1px solid white;
+    margin-top: 1rem;
 }
 
 .centre{
@@ -48,6 +53,7 @@ label, .check_icon{
     background-color: black;
     font-family: "Inter", sans-serif;
     font-weight: 100;
+    margin-top: -1.3rem;
     /* font-size: 1rem; */
   }
   
@@ -192,8 +198,13 @@ label, .check_icon{
       }
 
       .log>img{
-        height: 15vh;
+        height: 13vh;
+        margin-top: -2rem;
         /* margin-left: 1rem; */
+      }
+
+      .hr{
+        margin-top: 1.9rem;
       }
 
       .sea{
@@ -211,7 +222,7 @@ label, .check_icon{
     label{
         display: block;
         font-size: 2rem;
-        margin-top: -8rem;
+        margin-top: -10rem;
         margin-left: 20rem;
         cursor: pointer;
         color: #c7a17a;
