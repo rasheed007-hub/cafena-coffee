@@ -642,12 +642,19 @@ label, .check_icon{
 }
 
 @media (min-width:330px) and (max-width:600px) {
+
+    .h4>h4{
+        color: white;
+        /* margin-top: -.1rem; */
+    }
+
     .h4>div{
         background-color: #c7a17a;
         height: 4vh;
         border-radius: 3px;
         width: 12vh;
-        margin-left: 8.9rem;
+        margin-left: 8.4rem;
+        /* margin-bottom: -rem; */
         /* margin-bottom: -2.7rem; */
     }
 
