@@ -1041,7 +1041,7 @@ form{
         .inp{
             border-bottom: 1px solid white;
             width: 12rem;
-            margin-left: -1rem;
+            margin-left: -.4rem;
             margin-top: 1rem;
             margin-bottom: 2rem;
         }
