@@ -464,6 +464,7 @@ label, .check_icon{
 .aba>p{
     font-size: 1.2rem;
     text-transform: uppercase;
+    font-family: "Roboto", serif;
 }
 
 .aba>i{
@@ -503,6 +504,10 @@ label, .check_icon{
 
     .part_three>p{
         margin-left: -.1rem;
+    }
+
+    .aba{
+        margin-left: 1rem;
     }
 
     .aba>p{
@@ -1120,7 +1125,7 @@ form{
 
     .pas>p{
         /* color: white; */
-        margin-left: 9.5rem;
+        margin-left: 10rem;
         /* text-transform: uppercase; */
         /* margin-top: 2rem; */
         /* font-family: "Roboto", serif; */
