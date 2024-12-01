@@ -997,25 +997,25 @@ form{
             background-color: black;
             margin-top: 3rem;
             height: 43vh;
-            width: 49vh;
+            width: 48vh;
             /* padding: 2rem; */
-            /* padding-top: 4rem; */
+            padding-top: 2rem;
         }        
 
         .gold{
             /* margin: 2rem; */
-            margin-left: -1rem;
+            margin-left: -.8rem;
             border: 1px solid #c7a17a;
             height: 30vh;
-            width: 45vh;
+            width: 42vh;
         }
         .gold1{
-            margin-left: 1rem;
+            /* margin-left: 1rem; */
             margin-top: -1rem;
             /* margin: 2rem; */
             border: 1px solid #c7a17a;
             height: 34vh;
-            width: 40vh;
+            width: 38vh;
         }
         
         .gold1>h2{
@@ -1038,7 +1038,7 @@ form{
         
         .inp{
             border-bottom: 1px solid white;
-            width: 10rem;
+            width: 9rem;
             margin-left: 1rem;
             margin-top: 1rem;
             margin-bottom: 2rem;
@@ -1046,7 +1046,7 @@ form{
         
         .inp>input{
             /* border-bottom: 1px solid white; */
-            width: 8rem;
+            width: 7rem;
             margin-top: 1rem;
             /* text-align: center; */
             margin-left: 1rem;
@@ -1059,7 +1059,7 @@ form{
         .bjn>button{
             margin-block: 2rem;
             height: 1.5rem;
-            width: 6rem;
+            width: 5rem;
             background-color: #c7a17a;
             color: white;
             font-size: .7rem;
