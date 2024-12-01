@@ -1038,8 +1038,8 @@ form{
         
         .inp{
             border-bottom: 1px solid white;
-            width: 12rem;
-            margin-left: 1rem;
+            width: 14rem;
+            margin-left: 2rem;
             margin-top: 1rem;
             margin-bottom: 2rem;
         }
@@ -1049,7 +1049,7 @@ form{
             width: 9rem;
             margin-top: 1rem;
             /* text-align: center; */
-            margin-left: 2rem;
+            margin-left: 1rem;
             background-color: rgba(255, 0, 0, 0);
             border: none;
             outline: none;
