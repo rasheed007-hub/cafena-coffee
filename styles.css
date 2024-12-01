@@ -866,6 +866,7 @@ label, .check_icon{
     background-image: url(img/coffee-cup-coffee-beans-black-wooden-background_88281-429.avif);
     /* height: 100vh; */
     margin-block: 4rem;
+    margin-bottom: 13rem;
 }
 .thing{
     background: linear-gradient(to bottom, black, rgba(133, 133, 133, 0));
@@ -898,6 +899,7 @@ label, .check_icon{
     width: 100vh;
     padding: 2rem;
     padding-top: 4rem;
+    /* margin-bottom: 4rem; */
 }
 
 .gold{
@@ -942,7 +944,7 @@ label, .check_icon{
 
 .inp>input{
     /* border-bottom: 1px solid white; */
-    width: 10rem;
+    width: 13rem;
     margin-top: 1rem;
     /* text-align: center; */
     margin-left: 1rem;
@@ -1076,5 +1078,30 @@ form{
             gap: 1rem;
         }
 
+}
+
+.beg{
+    /* margin-top: 3rem; */
+    border-bottom: 1px solid white;
+    /* padding-top: 2rem; */
+    position: relative;
+}
+
+.cap>a>i{
+    position: absolute;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 100%;
+    right: 50%;
+    /* top: 0; */
+    margin-top: -1.5rem;
+    text-align: center;
+    padding-top: .2rem;
+    /* margin-left: 40rem; */
+    font-size: 2rem;
+    /* margin-top: -4rem; */
 }
 
