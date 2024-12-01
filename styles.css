@@ -997,14 +997,14 @@ form{
             background-color: black;
             margin-top: 3rem;
             height: 43vh;
-            width: 48vh;
+            width: 45vh;
             /* padding: 2rem; */
             padding-top: 2rem;
         }        
 
         .gold{
             /* margin: 2rem; */
-            margin-left: -.8rem;
+            margin-left: -1.3rem;
             border: 1px solid #c7a17a;
             height: 30vh;
             width: 42vh;
