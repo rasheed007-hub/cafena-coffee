@@ -1038,7 +1038,7 @@ form{
         
         .inp{
             border-bottom: 1px solid white;
-            width: 9rem;
+            width: 12rem;
             margin-left: 1rem;
             margin-top: 1rem;
             margin-bottom: 2rem;
@@ -1046,7 +1046,7 @@ form{
         
         .inp>input{
             /* border-bottom: 1px solid white; */
-            width: 7rem;
+            width: 9rem;
             margin-top: 1rem;
             /* text-align: center; */
             margin-left: 2rem;
@@ -1067,8 +1067,6 @@ form{
             text-transform: uppercase;
             font-weight: 400;
             font-family: "Roboto", serif;
-            /* margin-bottom:-19rem; */
-            /* margin-left: 21rem; */
          }
         
         form{
@@ -1077,3 +1075,4 @@ form{
         }
 
 }
+
