@@ -148,7 +148,9 @@ label, .check_icon{
     text-transform: uppercase;
     margin-right: 1rem;
     font-size: .8rem;
+    outline: none;
 }
+
 
 .btn>button{
    margin-block: 2rem;
@@ -1240,8 +1242,10 @@ form{
     color: white;
     padding-top: .2rem;
     border-radius: 5px;
+    outline: none;
     text-align: center;
 }
+
 
 @media (min-width:320px) and (max-width:700px){
 
