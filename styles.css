@@ -1259,9 +1259,10 @@ form{
 
     .del{
         /* border: 2px solid white; */
-        width: 23rem;
+        width: 21rem;
         font-family: "Roboto", serif;
         font-size: .8rem;
+        margin-left: 1rem;
         font-weight: 500;
     }
     
