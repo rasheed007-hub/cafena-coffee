@@ -486,7 +486,7 @@ label, .check_icon{
     font-family: "Roboto", serif;
 }
 
-@media (min-width:330px) and (max-width:600px) {
+@media (min-width:330px) and (max-width:700px) {
     .part_two{
         flex-direction: column;
         gap: 5rem;
@@ -558,7 +558,7 @@ label, .check_icon{
     font-size: .9rem;
 }
 
-@media(min-width:320px) and (max-width:600px){
+@media(min-width:320px) and (max-width:700px){
     .sec_four{
         grid-template-columns: 1fr;
         text-align: center;
@@ -647,7 +647,7 @@ label, .check_icon{
     color: #c7a17a;
 }
 
-@media (min-width:320px) and (max-width:600px) {
+@media (min-width:320px) and (max-width:700px) {
 
     .h4>h4{
         color: white;
@@ -807,7 +807,7 @@ label, .check_icon{
 }
 
 
-@media(min-width:320px) and (max-width:600px){
+@media(min-width:320px) and (max-width:700px){
     .h2>h4{
         color: white;
         /* margin-top: -.1rem; */
@@ -972,7 +972,7 @@ form{
     gap: 1rem;
 }
 
-@media (min-width:320px) and (max-width:600px){
+@media (min-width:320px) and (max-width:700px){
         .every{
             margin-top: 15rem;
         }
@@ -999,7 +999,7 @@ form{
             height: 43vh;
             width: 45vh;
             /* padding: 2rem; */
-            padding-top: 2rem;
+            padding-top: 4rem;
         }        
 
         .gold{
@@ -1030,7 +1030,7 @@ form{
         .gold1>p{
             color: #fff;
             text-align: center;
-            margin-top: -2rem;
+            margin-top: -1rem;
             font-family: "Roboto", serif;
             font-weight: 400;
             font-size: .8rem;
@@ -1049,7 +1049,7 @@ form{
             width: 7rem;
             margin-top: 1rem;
             /* text-align: center; */
-            margin-left: 1rem;
+            margin-left: 2rem;
             background-color: rgba(255, 0, 0, 0);
             border: none;
             outline: none;
