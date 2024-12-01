@@ -859,3 +859,221 @@ label, .check_icon{
 
    
 }
+
+.every{
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-image: url(img/coffee-cup-coffee-beans-black-wooden-background_88281-429.avif);
+    /* height: 100vh; */
+    margin-block: 4rem;
+}
+.thing{
+    background: linear-gradient(to bottom, black, rgba(133, 133, 133, 0));
+    height: 70vh;
+}
+
+.back>h1{
+    text-align: center;
+    width: 36rem;
+    color: white;
+    /* border: 2px solid white; */
+    font-family: "Roboto", serif;
+    font-weight: 600;
+    margin-left: 14rem;
+    font-size: 2rem;
+    padding-top: 3rem;
+}
+
+.back>img{
+    margin-left: 28rem;
+    height: 5rem;
+}
+
+.black{
+    /* align-items: center; */
+    /* text-align: center; */
+    /* margin-left: ; */
+    background-color: black;
+    height: 60vh;
+    width: 100vh;
+    padding: 2rem;
+    padding-top: 4rem;
+}
+
+.gold{
+    /* margin: 2rem; */
+    border: 1px solid #c7a17a;
+    height: 30vh;
+    width: 90vh;
+}
+.gold1{
+    margin-left: 1rem;
+    margin-top: -1rem;
+    /* margin: 2rem; */
+    border: 1px solid #c7a17a;
+    height: 35vh;
+    width: 85vh;
+}
+
+.gold1>h2{
+    color: white;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+.gold1>p{
+    color: #fff;
+    text-align: center;
+    margin-top: -2rem;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-size: .8rem;
+}
+
+.inp{
+    border-bottom: 1px solid white;
+    width: 15rem;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.inp>input{
+    /* border-bottom: 1px solid white; */
+    width: 10rem;
+    margin-top: 1rem;
+    /* text-align: center; */
+    margin-left: 1rem;
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.bjn>button{
+    margin-block: 2rem;
+    height: 1.5rem;
+    width: 6rem;
+    background-color: #c7a17a;
+    color: white;
+    font-size: .7rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    /* margin-bottom:-19rem; */
+    /* margin-left: 21rem; */
+ }
+
+form{
+    display: flex;
+    gap: 1rem;
+}
+
+@media (min-width:320px) and (max-width:600px){
+        .every{
+            margin-top: 15rem;
+        }
+        .back>h1{
+            text-align: center;
+            width: 24rem;
+            color: white;
+            /* border: 2px solid white; */
+            font-family: "Roboto", serif;
+            font-weight: 600;
+            margin-left: -.2rem;
+            font-size: 1.4rem;
+            padding-top: 4rem;
+        }
+
+        .back>img{
+            margin-left: 10rem;
+            height: 3rem;
+        }
+
+        .black{
+            background-color: black;
+            margin-top: 3rem;
+            height: 41vh;
+            width: 50.3vh;
+            /* padding: 2rem; */
+            /* padding-top: 4rem; */
+        }        
+
+        .gold{
+            /* margin: 2rem; */
+            margin-left: -1rem;
+            border: 1px solid #c7a17a;
+            height: 30vh;
+            width: 45vh;
+        }
+        .gold1{
+            margin-left: 1rem;
+            margin-top: -1rem;
+            /* margin: 2rem; */
+            border: 1px solid #c7a17a;
+            height: 34vh;
+            width: 40vh;
+        }
+        
+        .gold1>h2{
+            margin-top: 4rem;
+            color: white;
+            text-align: center;
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 400;
+            font-size: 2.5rem;
+        }
+        
+        .gold1>p{
+            color: #fff;
+            text-align: center;
+            margin-top: -2rem;
+            font-family: "Roboto", serif;
+            font-weight: 400;
+            font-size: .8rem;
+        }
+        
+        .inp{
+            border-bottom: 1px solid white;
+            width: 10rem;
+            margin-left: 1rem;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .inp>input{
+            /* border-bottom: 1px solid white; */
+            width: 8rem;
+            margin-top: 1rem;
+            /* text-align: center; */
+            margin-left: 1rem;
+            background-color: rgba(255, 0, 0, 0);
+            border: none;
+            outline: none;
+            color: white;
+        }
+        
+        .bjn>button{
+            margin-block: 2rem;
+            height: 1.5rem;
+            width: 6rem;
+            background-color: #c7a17a;
+            color: white;
+            font-size: .7rem;
+            border-radius: 5px;
+            text-transform: uppercase;
+            font-weight: 400;
+            font-family: "Roboto", serif;
+            /* margin-bottom:-19rem; */
+            /* margin-left: 21rem; */
+         }
+        
+        form{
+            display: flex;
+            gap: 1rem;
+        }
+
+}
