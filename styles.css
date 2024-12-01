@@ -935,7 +935,7 @@ label, .check_icon{
 .inp{
     border-bottom: 1px solid white;
     width: 15rem;
-    margin-left: 5rem;
+    /* margin-left: 5rem; */
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
@@ -970,6 +970,8 @@ label, .check_icon{
 form{
     display: flex;
     gap: 1rem;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (min-width:320px) and (max-width:700px){
@@ -1039,7 +1041,7 @@ form{
         .inp{
             border-bottom: 1px solid white;
             width: 14rem;
-            margin-left: 2rem;
+            /* margin-left: 2rem; */
             margin-top: 1rem;
             margin-bottom: 2rem;
         }
