@@ -1121,6 +1121,11 @@ form{
 }
 
 @media(min-width:320px) and (max-width:700px){
+
+    .beg{
+        margin-top: -4rem;
+    }
+
     .cap>a>i{
         right: 45%;
     }
