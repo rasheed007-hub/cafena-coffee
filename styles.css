@@ -17,7 +17,7 @@ body{
 }
 
 header{
-    padding-top: 1updatedrem;
+    padding-top: 1rem;
 }
 /* 
 .top{
@@ -193,6 +193,7 @@ label, .check_icon{
 
 @media(min-width: 320px) and (max-width:    600px){
 
+
     .top{
         display: none;
         /* margin-left: -6rem;
@@ -201,7 +202,7 @@ label, .check_icon{
     }
 
     header{
-        margin-top: 1rem;
+        padding-top: 1.5rem;
     }
 
     .log{
