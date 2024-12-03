@@ -15,6 +15,10 @@
 body{
     background-color: black;
 }
+
+header{
+    padding-top: 2rem;
+}
 /* 
 .top{
     margin-left: 55rem;
